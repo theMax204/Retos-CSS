@@ -10,15 +10,9 @@
 
     margin: 1em;
     display: inline-block;
-}/*contenedor prin borrar despues*/
-.contenedor_prin{
-    border: solid 12px green;
-    margin: 1em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
+
+
 .contenedor_noti{
     
     width: 15em;
@@ -60,6 +54,6 @@ img{
 main{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
 }
