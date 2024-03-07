@@ -1,0 +1,49 @@
+.header{
+    background-color: rgb(166, 162, 162);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+div{
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+div:hover{
+    color: black ;
+    transition: .3s color ease;
+    -webkit-transition: .3s color ease;
+    -moz-transition: .3s color ease;
+    -ms-transition: .3s color ease;
+    -o-transition: .3s color ease;
+    cursor: pointer;
+}
+html,body{
+    margin: 0;
+
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 20px 0;
+
+}
+.largo{
+    grid-column: span 3;
+    color: gray;
+    color: transparent;
+}
+.largo:hover{
+    color: gray;
+    transition: .3s color ease;
+    -webkit-transition: .3s color ease;
+    -moz-transition: .3s color ease;
+    -ms-transition: .3s color ease;
+    -o-transition: .3s color ease;
+    cursor: pointer;
+}
